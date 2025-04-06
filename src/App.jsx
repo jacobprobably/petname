@@ -101,7 +101,7 @@ function App() {
 
       // API endpoint - update this with your actual backend URL
       // API endpoint - hardcoded for local testing
-      const API_URL = "http://localhost:3001";
+      const API_URL = import.meta.env.VITE_API_URL;
       console.log("Using API URL:", API_URL);
 
       // Make the API call to your backend
