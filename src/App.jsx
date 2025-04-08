@@ -402,9 +402,10 @@ function App() {
         {/* Footer */}
         <footer className="app-footer">
           <p>
-            PRIVATE PETPLACE TESTING ONLY - This has my personal API keys
-            attached so if you generate 1,000+ names I will be delivering an
-            invoice to your house
+            PetPlace Test Product - Personal API Key - Model is
+            unrestricted/unmonitored, some names might be hilarious, wrong, or
+            inappropriate. For any requests or questions, email{" "}
+            <a href="mailto:jacob.kennedy@petplace.com">here</a>.
           </p>
         </footer>
       </div>
