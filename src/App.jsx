@@ -402,9 +402,9 @@ function App() {
         {/* Footer */}
         <footer className="app-footer">
           <p>
-            PRIVATE TESTING ONLY - This has my personal API keys attached so if
-            you generate 1,000+ names I will be delivering an invoice to your
-            house
+            PRIVATE PETPLACE TESTING ONLY - This has my personal API keys
+            attached so if you generate 1,000+ names I will be delivering an
+            invoice to your house
           </p>
         </footer>
       </div>
