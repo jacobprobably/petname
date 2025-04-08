@@ -124,15 +124,6 @@ function App() {
     }
   };
 
-  // Reset everything
-  const resetProcess = () => {
-    setSelectedImage(null);
-    setImagePreview(null);
-    setSelectedStyle(null);
-    setPetNames([]);
-    setError(null);
-  };
-
   return (
     <div className="app-container">
       <div className="card-container">
@@ -297,12 +288,6 @@ function App() {
                           className="btn btn-primary"
                           onClick={handleGenerateNames}
                           disabled={isLoading}
-                        >
-                          Generate More
-                        </button>
-                        <button
-                          className="btn btn-secondary"
-                          onClick={resetProcess}
                         >
                           Start Over
                         </button>
